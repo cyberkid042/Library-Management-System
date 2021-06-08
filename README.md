@@ -6,6 +6,8 @@ A web application to help manage resources in a library/school
 
 Rename the .env.example file to .env, fill in your Database information and change the application's name. Run "php artisan key:generate" to generate a new key for your application, then run "php artisan serve" to serve the application.
 
+Remember to also run "php artisan migrate" to migrate your Database tables.
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
